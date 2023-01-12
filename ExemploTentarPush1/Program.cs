@@ -10,7 +10,7 @@ namespace ExemploTentarPush1
     {
         public static void Main(string[] args)
         {
-            CreateWebHostBuilder(args).Build().Run();
+            CreateWebHostBuilder(args).Build().Run();//está dando erro aqui.
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
